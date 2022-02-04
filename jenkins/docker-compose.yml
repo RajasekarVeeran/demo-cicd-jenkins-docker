@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins/jenkins
+    environment:
+      HTTP_PROXY: ${HTTP_PROXY}
+      HTTPS_PROXY: ${HTTPS_PROXY}
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./jenkins_home:/var/jenkins_home"
+    networks:
+      - net
+
+networks:
+  net:
