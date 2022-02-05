@@ -136,7 +136,7 @@ You should get an output similar to this,
 ![image](https://user-images.githubusercontent.com/14373178/152645716-7e3addde-1297-46fd-900f-02a33ce256ba.png)
 
 If all good, type this url in your browser and you should see a sample html page with a welcome message.
-```http://<server-name>```
+```http://<server-name>``` [OR] ```http://<server-ip>```
 
 
-*That's the end of this demo. Hope it was interesting.*
+*That's the end of this demo. Hope it was helpful.*
