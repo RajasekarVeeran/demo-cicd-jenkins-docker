@@ -125,7 +125,7 @@ If not check the repo url for any typos.
 ### Step 5: Deploy our demo frontend app as docker container
 Goto this path
 ```
-$ cd ~/jenkins-data/jenkins_home/workspace/Demo/
+$ cd ~/jenkins-data/jenkins_home/workspace/Demo/my_app/
 ```
 and run the below command to create and run our frontend app container hosted in apache webserver.
 ```
